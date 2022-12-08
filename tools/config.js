@@ -35,7 +35,7 @@ module.exports = {
     mode: 'production',
     output: {
       filename: '[name].js',
-      libraryTarget: 'umd',
+      libraryTarget: 'self',
     },
     target: 'web',
     externals: [nodeExternals()], // 忽略 node_modules
